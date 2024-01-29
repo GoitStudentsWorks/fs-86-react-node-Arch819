@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
    <PersistGate loading={<Loader />} persistor={persistor}>
-      <BrowserRouter basename="/project-PowerTeam-front">
+      <BrowserRouter basename="/fs-86-react-node-Arch819">
         <App />
       </BrowserRouter>
    </PersistGate>
